@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles/all.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section>
+      <div id="imagem"></div>
+      <form action="cadastro.php" method="get">
+        <h1>Login</h1>
+        <p>
+          Seja bem-vindo(a), novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+        </p>
+        <div class="row">
+          <label for="email">
+            <span class="material-icons">
+              person
+            </span>
+          </label>
+          <input type="email" name="email" id="email" placeholder="Seu email" required minlength="5" maxlength="20">
+        </div>
+        <div class="row">
+          <label for="senha">
+            <span class="material-icons">
+              key
+            </span>
+          </label>
+          <input type="password" name="senha" id="senha" placeholder="Sua senha" required minlength="8">
+        </div>
+        <div class="row">
+          <input type="submit" value="Entrar">
+        </div>
+        <div class="row">
+          <a href="#" class="forget-password">Esqueci a senha <span class="material-icons">lock</span></a>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
