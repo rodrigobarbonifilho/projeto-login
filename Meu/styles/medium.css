@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+  background: linear-gradient(to top, #499F9D, #5F2C82);
+}
+
+#login {
+  width: 80vw;
+  height: 280px;
+}
+
+#login #image {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  border-radius: 20px 0 0 20px;
+}
+
+#login form {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  width: 70%;
+}

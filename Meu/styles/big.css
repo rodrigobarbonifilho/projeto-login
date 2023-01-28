@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#login {
+  width: 80.5vw;
+  height: 350px;
+  border-radius: 22px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+#login #image {
+  float: right;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 22px 22px 0;
+}
+
+#login form {
+  width: 50%;
+}
+
+#login form h1 {
+  font-size: 32px;
+}
+
+#login form p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
